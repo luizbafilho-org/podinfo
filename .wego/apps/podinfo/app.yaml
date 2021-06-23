@@ -4,5 +4,5 @@ kind: Application
 metadata:
   name: podinfo
 spec:
-  path: ./charts/podinfo
+  path: ./
   url: ssh://git@github.com/luizbafilho/podinfo.git
