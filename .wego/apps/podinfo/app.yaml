@@ -5,7 +5,7 @@ metadata:
   name: podinfo
   namespace: wego-system
   labels:
-    weave-gitops.weave.works/app-identifier: wego-9e54bd8cdd611aedf1dfbaa87d6c76a3
+    weave-gitops.weave.works/app-identifier: wego-77f727f57c27130567f737afbfac5d00
 spec:
-  path: ./
+  path: ./manifests
   url: ssh://git@github.com/luizbafilho/podinfo.git
