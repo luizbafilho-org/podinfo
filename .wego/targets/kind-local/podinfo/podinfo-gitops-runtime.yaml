@@ -7,7 +7,7 @@ metadata:
 spec:
   interval: 30s
   ref:
-    branch: main
+    branch: master
   secretRef:
     name: weave-gitops-kind-local-podinfo
   url: ssh://git@github.com/luizbafilho/podinfo.git

@@ -3,7 +3,7 @@ apiVersion: wego.weave.works/v1alpha1
 kind: Application
 metadata:
   labels:
-    weave-gitops.weave.works/app-identifier: wego-9e54bd8cdd611aedf1dfbaa87d6c76a3
+    weave-gitops.weave.works/app-identifier: wego-ed3e1332b635f4aa9213c7e646cab3c9
   name: podinfo
   namespace: wego-system
 spec:
