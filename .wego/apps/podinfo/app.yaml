@@ -7,5 +7,6 @@ metadata:
   name: podinfo
   namespace: wego-system
 spec:
+  deployment_type: kustomize
   path: ./kustomize
   url: ssh://git@github.com/luizbafilho/podinfo.git
