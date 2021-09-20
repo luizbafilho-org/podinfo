@@ -1,0 +1,14 @@
+---
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  labels:
+    wego.weave.works/app-identifier: wego-7e5b6532a20c97cce4f4c1fbd440d7be
+  name: podinfo-helm
+  namespace: wego-system
+spec:
+  branch: master
+  deployment_type: helm
+  path: ./charts/podinfo
+  source_type: git
+  url: ssh://git@github.com/luizbafilho/podinfo.git
