@@ -3,12 +3,12 @@ apiVersion: wego.weave.works/v1alpha1
 kind: Application
 metadata:
   labels:
-    wego.weave.works/app-identifier: wego-9c4f37ccbc3eba62923b255c22cd105d
+    wego.weave.works/app-identifier: wego-12bde7eb4fb66d23c1d6551f14d82482
   name: podinfo
   namespace: wego-system
 spec:
   branch: master
-  deployment_type: kustomize
-  path: ./kustomize
+  deployment_type: helm
+  path: ./charts/podinfo
   source_type: git
   url: ssh://git@github.com/luizbafilho/podinfo.git
